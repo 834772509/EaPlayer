@@ -30,33 +30,33 @@ new EaPlayer({
 });
 ```
 
+### 配置
+
+| 参数            | 说明       | 类型    | 可选值 | 默认值                |
+| --------------- | ---------- | ------- | ------ | --------------------- |
+| title           | 标题       | string  | -      | EaPlayer              |
+| open            | 展开播放器 | boolean | -      | false                 |
+| color           | 背景颜色   | string  | -      | #333333               |
+| autoplay        | 自动播放   | boolean | -      | false                 |
+| volume          | 音乐音量   | number  | 0-100  | 100                   |
+| playmode        | 播放模式   | string  | all    | onec / shuffle / all      |
+| defaultPlayList | 默认歌单   | string  | -      | 「Welcome」默认的曲单 |
+| playlist        | 歌单信息   | Object  | -      |                       |
+
+### playlist
+
+| 参数   | 说明     | 类型   |
+| ------ | -------- | ------ |
+| name   | 歌曲名称 | string |
+| artist | 歌手名称 | string |
+| src    | 歌曲链接 | string |
+| image  | 歌曲图片 | string |
+| lrc    | 歌曲歌词 | string |
+
 ## 编译
 
 1. 安装 `npm install`
 2. 编译: `npm run build`
-
-### 配置
-
-| 参数            | 说明           | 类型    | 可选值 | 默认值                |
-| --------------- | -------------- | ------- | ------ | --------------------- | ------- | --- |
-| title           | 标题           | string  | -      | EaPlayer              |
-| open            | 是否展开播放器 | boolean | -      | false                 |
-| color           | 颜色           | string  | -      | #333333               |
-| autoplay        | 自动播放       | boolean | -      | false                 |
-| volume          | 音量           | number  | 0-100  | 100                   |
-| playmode        | 播放模式       | string  | all    | onec                  | shuffle | all |
-| defaultPlayList | 默认歌单       | string  | -      | 「Welcome」默认的曲单 |
-| playlist        | 歌单信息       | Object  | -      |                       |
-
-- playlist:
-
-  | 参数   | 说明     | 类型   |
-  | ------ | -------- | ------ |
-  | name   | 歌曲名称 | string |
-  | artist | 歌手名称 | string |
-  | src    | 歌曲链接 | string |
-  | image  | 歌曲图片 | string |
-  | lrc    | 歌曲歌词 | string |
 
 ## 引用
 

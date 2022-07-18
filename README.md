@@ -1,6 +1,6 @@
 # EaPlayer
 
-[Simplified Chinese](README.zh.md) [English](README.md)
+[简体中文](README.zh.md) [English](README.md)
 
 ## introduce
 
@@ -9,7 +9,7 @@ Music player written in native JS
 - The UI interface comes from the `EA Player`WrodPress plugin of [Louis (louie)](https://www.cssplus.org/).
 - Features are in native JS
 - Packaged with WebPack
-- Also use TypeScript
+- compatible TypeScript
 
 ## Install
 
@@ -30,33 +30,33 @@ new EaPlayer({
 });
 ```
 
-### Configuration
+### Config
 
-| parameter       | description                  | type    | optional value | default value              |
-| --------------- | ---------------------------- | ------- | -------------- | -------------------------- | ------- | --- |
-| title           | title                        | string  | -              | EaPlayer                   |
-| open            | whether to expand the player | boolean | -              | false                      |
-| color           | color                        | string  | -              | #333333                    |
-| autoplay        | autoplay                     | boolean | -              | false                      |
-| volume          | volume                       | number  | 0-100          | 100                        |
-| playmode        | play mode                    | string  | all            | onec                       | shuffle | all |
-| defaultPlayList | Default playlist             | string  | -              | "Welcome" default playlist |
-| playlist        | Playlist information         | Object  | -              |                            |
+| parameter       | description          | type    | optional value | default value              |
+| --------------- | -------------------- | ------- | -------------- | -------------------------- |
+| title           | title                | string  | -              | EaPlayer                   |
+| open            | Expand player        | boolean | -              | false                      |
+| color           | background color     | string  | -              | #333333                    |
+| autoplay        | autoplay             | boolean | -              | false                      |
+| volume          | Music volume         | number  | 0-100          | 100                        |
+| playmode        | play mode            | string  | all            | onec / shuffle / all       |
+| defaultPlayList | Default playlist     | string  | -              | "Welcome" default playlist |
+| playlist        | Playlist information | Object  | -              |                            |
 
-- playlist:
+### playlist
 
-  | parameter | description | type   |
-  | --------- | ----------- | ------ |
-  | name      | song name   | string |
-  | artist    | Artist name | string |
-  | src       | song link   | string |
-  | image     | song image  | string |
-  | lrc       | song lyrics | string |
+| parameter | description | type   |
+| --------- | ----------- | ------ |
+| name      | song name   | string |
+| artist    | Artist name | string |
+| src       | song link   | string |
+| image     | song image  | string |
+| lrc       | song lyrics | string |
 
 ## build
 
-1. Install `npm install`
-2. Compile: `npm run build`
+1. install: `npm install`
+2. build: `npm run build`
 
 ## ref
 
