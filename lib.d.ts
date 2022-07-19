@@ -23,7 +23,7 @@ export declare interface PlayerConfig {
 }
 
 export declare class EaPlayer {
-  constructor(config?: PlayMode);
+  constructor(config?: PlayerConfig);
 }
 
 export default EaPlayer;
