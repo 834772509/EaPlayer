@@ -41,7 +41,7 @@ new EaPlayer({
 | color           | 背景颜色   | string  | -      | #333333               |
 | autoplay        | 自动播放   | boolean | -      | false                 |
 | volume          | 音乐音量   | number  | 0-100  | 100                   |
-| playmode        | 播放模式   | string  | all    | onec / shuffle / all  |
+| playmode        | 播放模式   | string  | all    | once / shuffle / all  |
 | defaultPlayList | 默认歌单   | string  | -      | 「Welcome」默认的曲单 |
 | playlist        | 歌单信息   | Object  | -      |                       |
 

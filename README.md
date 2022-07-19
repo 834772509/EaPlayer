@@ -41,7 +41,7 @@ new EaPlayer({
 | color           | background color     | string  | -              | #333333                    |
 | autoplay        | autoplay             | boolean | -              | false                      |
 | volume          | Music volume         | number  | 0-100          | 100                        |
-| playmode        | play mode            | string  | all            | onec / shuffle / all       |
+| playmode        | play mode            | string  | all            | once / shuffle / all       |
 | defaultPlayList | Default playlist     | string  | -              | "Welcome" default playlist |
 | playlist        | Playlist information | Object  | -              |                            |
 
