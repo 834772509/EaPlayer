@@ -13,7 +13,9 @@
 
 ## 安装
 
-`npm install eaplayer`
+`$ npm install eaplayer`  
+或  
+`$ yarn add eaplayer`
 
 ## 使用
 
@@ -23,8 +25,8 @@ import EaPlayer from "eaplayer";
 new EaPlayer({
   playlist: {
     "歌单名称": [
-      {name: "歌曲名称",artist: "歌手名称",src: "歌曲链接",image: "歌曲图片",lrc: "歌词链接"},
-      {name: "歌曲名称",artist: "歌手名称",src: "歌曲链接",image: "歌曲图片",lrc: "歌词链接"},
+      {name: "歌曲名称", artist: "歌手名称", src: "歌曲链接", image: "歌曲图片", lrc: "歌词链接"},
+      {name: "歌曲名称", artist: "歌手名称", src: "歌曲链接", image: "歌曲图片", lrc: "歌词链接"},
     ],
   },
 });
@@ -39,7 +41,7 @@ new EaPlayer({
 | color           | 背景颜色   | string  | -      | #333333               |
 | autoplay        | 自动播放   | boolean | -      | false                 |
 | volume          | 音乐音量   | number  | 0-100  | 100                   |
-| playmode        | 播放模式   | string  | all    | onec / shuffle / all      |
+| playmode        | 播放模式   | string  | all    | onec / shuffle / all  |
 | defaultPlayList | 默认歌单   | string  | -      | 「Welcome」默认的曲单 |
 | playlist        | 歌单信息   | Object  | -      |                       |
 

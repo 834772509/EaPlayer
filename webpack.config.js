@@ -9,7 +9,7 @@ const chalk = require("chalk");
 module.exports = {
   mode: "production",
   target: "web",
-  entry: "./src/main.js",
+  entry: "./main.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "eaplayer.js",

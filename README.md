@@ -11,11 +11,13 @@ Music player written in native JS
 - Packaged with WebPack
 - compatible TypeScript
 
-## Install
+## Installation
 
-`npm install eaplayer`
+`$ npm install eaplayer`  
+or  
+`$ yarn add eaplayer`
 
-## Use
+## Usage
 
 ```JavaScript
 import EaPlayer from "eaplayer";
@@ -23,8 +25,8 @@ import EaPlayer from "eaplayer";
 new EaPlayer({
   playlist: {
     "Playlist Name": [
-      {name: "song name",artist: "artist name",src: "song link",image: "song picture",lrc: "lyric link"},
-      {name: "song name",artist: "artist name",src: "song link",image: "song picture",lrc: "lyric link"},
+      {name: "song name", artist: "artist name", src: "song link", image: "song picture", lrc: "lyric link"},
+      {name: "song name", artist: "artist name", src: "song link", image: "song picture", lrc: "lyric link"},
     ],
   },
 });

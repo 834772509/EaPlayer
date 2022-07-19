@@ -1,12 +1,23 @@
 {
   "name": "eaplayer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a music player",
   "main": "main.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "releases": "webpack && npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/834772509/EaPlayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/834772509/EaPlayer/issues"
+  },
+  "homepage": "https://github.com/834772509/EaPlayer",
   "keywords": [
     "music",
     "player"
