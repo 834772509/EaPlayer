@@ -5,3 +5,6 @@ dist
 dist-ssr
 *.local
 index.html
+yarn.lock
+yarn-error.log
+package-lock.json
