@@ -1,6 +1,6 @@
-export declare type PlayMode = "all" | "once" | "shuffle";
+export type PlayMode = "all" | "once" | "shuffle";
 
-export declare interface Song {
+export interface Song {
   name: string;
   artist: string;
   src: string;
@@ -8,10 +8,10 @@ export declare interface Song {
   lrc: string;
 }
 
-export declare type Playlist = Song[];
-export declare type PlaylistMap = Record<T, Playlist>;
+export type Playlist = Song[];
+export type PlaylistMap = Record<T, Playlist>;
 
-export declare interface PlayerConfig {
+export interface PlayerConfig {
   title?: string;
   open?: boolean;
   color?: string;
@@ -22,7 +22,7 @@ export declare interface PlayerConfig {
   defaultPlayList?: string;
 }
 
-export declare class EaPlayer {
+export class EaPlayer {
   constructor(config?: PlayerConfig);
 }
 
