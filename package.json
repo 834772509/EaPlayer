@@ -4,7 +4,7 @@
     "description": "a music player",
     "main": "main.js",
     "files": [
-        "dist"
+        "dist",
         "lib.d.ts"
     ],
     "scripts": {
