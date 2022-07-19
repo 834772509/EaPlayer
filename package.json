@@ -1,6 +1,6 @@
 {
     "name": "eaplayer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "a music player",
     "main": "main.js",
     "files": [
@@ -25,13 +25,12 @@
     ],
     "types": "lib.d.ts",
     "author": "_fir_",
-    "license": "ISC",
+    "license": "GPL",
     "devDependencies": {
         "@babel/core": "^7.18.5",
         "@babel/preset-env": "^7.18.2",
         "babel-loader": "^8.2.5",
         "clean-webpack-plugin": "^4.0.0",
-        "copy-webpack-plugin": "^11.0.0",
         "css-loader": "^6.7.1",
         "css-minimizer-webpack-plugin": "^4.0.0",
         "mini-css-extract-plugin": "^2.6.1",
